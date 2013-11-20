@@ -2,15 +2,11 @@
 *.jar
 *.war
 *.ear
-
 .DS_Store
-
 bin
 build
-deployments
+deployments/*
 .settings
 .gradle
-.directory
 .classpath
-
 .project
