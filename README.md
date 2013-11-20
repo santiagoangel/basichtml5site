@@ -1,13 +1,19 @@
 
-Basic HTML 5 Site
+#Basic HTML5 Site#
 
-Twitter's bootstrap for the UI and Spring for the backend
-
-
-You can run the app in Openshift by copy this repo:
+Spring MVC, Twitter's Bootstrap and Freemarker.
 
 
-git remote add upstream -m master https://github.com/santiagoangel/basichtml5site
 
-git pull -s recursive -X theirs upstream master
+Running on OpenShift:
 
+$ rhc app create MyApp jbossas-7
+$ cd MyApp
+$ rm *
+$git remote add upstream -m master https://github.com/santiagoangel/basichtml5site
+$git pull -s recursive -X theirs upstream master
+$write some changes
+$ git add 
+$ git commit -m "Adding my changes"
+$ git push
+...
