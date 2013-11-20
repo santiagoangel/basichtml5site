@@ -14,11 +14,11 @@ $ cd MyApp
 
 $ rm *
 
-$git remote add upstream -m master https://github.com/santiagoangel/basichtml5site
+$ git remote add upstream -m master https://github.com/santiagoangel/basichtml5site
 
-$git pull -s recursive -X theirs upstream master
+$ git pull -s recursive -X theirs upstream master
 
-$write some changes
+$ write some changes
 
 $ git add 
 
