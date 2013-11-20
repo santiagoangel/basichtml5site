@@ -7,7 +7,7 @@ Spring MVC, Twitter's Bootstrap and Freemarker.
 
 ##Running on OpenShift:
 
-...
+```
 $ rhc app create MyApp jbossas-7
 
 $ cd MyApp
@@ -25,4 +25,4 @@ $ git add
 $ git commit -m "Adding my changes"
 
 $ git push
-...
+```
