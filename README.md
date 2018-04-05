@@ -4,6 +4,8 @@
 Spring MVC, Twitter's Bootstrap and Freemarker.
 
 
+![Screenshot](screenshot.png)
+
 
 ##Running on OpenShift:
 
@@ -47,4 +49,3 @@ $ gradle build
 ```
 
 Copy deployments/ROOT.war to the AS deployment directory or deploy it with (web) console.
-
