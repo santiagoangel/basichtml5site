@@ -1,6 +1,8 @@
 apply plugin: 'war'
-apply plugin: 'jetty'
+apply from: 'https://raw.github.com/akhikhl/gretty/master/pluginScripts/gretty.plugin'
 apply plugin: 'eclipse-wtp'
+sourceCompatibility = 1.6
+targetCompatibility = 1.6
 
 repositories {
    mavenCentral()
@@ -21,5 +23,5 @@ war{
 }
 
 /* Change context path (base url). otherwise defaults to name of project */
-jettyRunWar.contextPath = ''
+gretty.contextPath = ''
  
